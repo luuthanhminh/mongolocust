@@ -25,7 +25,7 @@ spec:
                 name: mongo-secret
                 key: CLUSTER_URL
           - name: LOCUST_OPTIONS
-            value: "--worker --master-host master"
+            value: "--worker --master-host master.mongo-locust"
           - name: BULK_INSERT_WEIGHT
             value: "1"
           - name: FIND_WEIGHT

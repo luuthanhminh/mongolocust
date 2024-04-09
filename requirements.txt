@@ -1,4 +1,4 @@
 locust
-pymongo
+#pymongo
 dnspython
 faker

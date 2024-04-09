@@ -1,8 +1,8 @@
 import os
 
-DEFAULTS = {'DB_NAME': 'sample',
-            'COLLECTION_NAME': 'documents',
-            'CLUSTER_URL': f'mongodb+srv://user:password@something.mongodb.net/sample?retryWrites=true&w=majority',
+DEFAULTS = {'DB_NAME': 'test_performence',
+            'COLLECTION_NAME': 'test_performence',
+            'CLUSTER_URL': f'<your-cluster-url>',
             'DOCS_PER_BATCH': 100,
             'INSERT_WEIGHT': 1,
             'FIND_WEIGHT': 3,
